@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+
+	"name": "Voice Recognition Finder",
+	"description": "Test",
+	"version": "1.0",
+  "content_scripts": [ {
+    	"matches": [ "*://*/*" ],
+      "js": ["js/content_script.js"]
+   } ],
+
+	"browser_action": {
+		"default_icon": "icons/icon.png",
+		"default_title": "Images Uploader",
+		"default_popup": "popup.html" 
+	},
+	
+   "permissions": ["unlimitedStorage","contextMenus","activeTab", "storage", "tabs", "https://www.google.com/", "http://*/*", "https://*/*" ],
+ 	
+	"icons": {
+		"16": "icons/icon.png",
+		"48": "icons/icon.png",
+		"128": "icons/icon.png"
+	}
+
+
+}
