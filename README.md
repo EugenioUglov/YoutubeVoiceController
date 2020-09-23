@@ -1,2 +1,2 @@
 # YoutubeVoiceController
-Adds voice control for YouTube videos.
+Extension for browser Chrome. Control YouTube videos with your voice.
